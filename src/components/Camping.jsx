@@ -9,7 +9,7 @@ import { degToRad } from "three/src/math/MathUtils";
 import OverlayItem from './OverlayItem';
 
 export function Camping({html, ...props}) {
-  const { nodes, materials } = useGLTF('/models/Camping Asset Collection.glb')
+  const { nodes, materials } = useGLTF('models/Camping_Asset_Collection.glb')
   return (
     <group {...props} dispose={null}>
       <group name="Scene">
