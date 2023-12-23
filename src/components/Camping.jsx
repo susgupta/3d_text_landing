@@ -50,7 +50,7 @@ export function Camping({html, ...props}) {
               position-z={1.2}
               position-y={-0.1}
               title={"Tent"}
-              description={"2 person tent, rest assured you'll be dry."}
+              description={"2 person tent, it's a tent what else."}
               price={"129.99"}
               bgColor={"bg-yellow-500"}
               className={"transition delay-1000"}
@@ -323,7 +323,7 @@ export function Camping({html, ...props}) {
               position-z={0.25}
               rotation-x={-degToRad(20)}
               title={"Lantern"}
-              description={"Story time is always better with a lantern."}
+              description={"it's a nice bright lantern very cool."}
               price={"39.99"}
               bgColor={"bg-orange-500"}
             />
@@ -393,7 +393,7 @@ export function Camping({html, ...props}) {
               position-z={-0.14}
               rotation-x={-degToRad(30)}
               title={"Sleeping Bag"}
-              description={"Keeps you warm and comfortable."}
+              description={"Keeps you warm, comfortable and dry."}
               price={"79.99"}
               bgColor={"bg-blue-500"}
               className="transition delay-700"
